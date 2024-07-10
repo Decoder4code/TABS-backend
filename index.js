@@ -5,7 +5,7 @@ const cors = require("cors");
 const router = require("./routes/userRoutes")
 const dbconnect = async () => {
     try{
-        await mongoose.connect("mongodb://localhost:27017/TRAVEL");
+        await mongoose.connect("mongodb+srv://gameanimator2004:Imbcjuce3kjQlGiP@cluster0.kaz7scr.mongodb.net/");
         console.log("db connect");
     }
     //mongodb://localhost:27017/
